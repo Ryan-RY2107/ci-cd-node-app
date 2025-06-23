@@ -1,0 +1,24 @@
+{
+  "name": "ci-cd-github-actions",
+  "version": "1.0.0",
+  "description": "Local Webhook Listener for GitHub Actions CI/CD",
+  "main": "local-webhook-listening-server.js",
+  "scripts": {
+    "start": "node local-webhook-listening-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KHEfreiIntervenant/ci-cd-with-github-actions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KHEfreiIntervenant/ci-cd-with-github-actions/issues"
+  },
+  "homepage": "https://github.com/KHEfreiIntervenant/ci-cd-with-github-actions#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}

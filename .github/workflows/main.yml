@@ -1,5 +1,12 @@
 name: Main CD Pipeline
-
+# This is the main CD pipeline for the project. It is triggered by a push to the main branch.
+# It builds the frontend and backend images and pushes them to Docker Hub.
+# The frontend and backend images are then deployed to the production environment.
+# The production environment is a Kubernetes cluster running in AWS.
+# The frontend and backend images are deployed to the production environment using a Helm chart.
+# The Helm chart is stored in the ci-cd-node-app repository.
+# The Helm chart is deployed to the production environment using a Helm CLI.
+# The Helm CLI is installed in the production environment using a Helm CLI image.
 on:
   push:
     branches:
